@@ -1,0 +1,19 @@
+/* Header */
+
+.Header {
+    height: 50px;
+    background-color: bisque;
+    display: flex;
+}
+.Header div:not(.Logo) {
+    width: calc(50% - 35px);
+}
+
+/* Logo */
+
+.Logo {
+    width: 70px;
+}
+.Logo img {
+    height: 50px;
+}
